@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     color: white;
     background-color: #1f2937;
-    padding: 25px;
+    padding: 25px 200px 50px 200px;
 }
 
 .header-top{
@@ -20,18 +20,25 @@ body {
 
 .content {
     display: flex;
-    align-items: center;
-    padding: 25px 0;
-    height: 250px;
+    padding: 100px 0;
+    gap: 25px;
 }
 
 .left {
-    flex-grow: 1;
-    flex-wrap: wrap;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    width: 390px;
+    gap: 10px;
 }
 
 .right {
-    flex-grow: 2;
+    display:flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    background-color: hsla(0, 0%, 50%, 0.405);
 }
 
 ul {
@@ -60,4 +67,10 @@ a {
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    width: 130px;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    border-color: #3882f6;
 }
