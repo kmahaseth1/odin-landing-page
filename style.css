@@ -149,3 +149,48 @@ button {
     font-weight: bolder;
     justify-content: flex-end;
 }
+
+.cto {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;
+    margin: 70px 35px;
+    color: white;
+    gap: 10px;
+    border-radius: 15px;
+    width: 800px;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.button-two {
+    border-color: white;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0;
+}
+
+.regular {
+    padding: 0;
+}
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 5px auto;
+}
+.footer > p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
